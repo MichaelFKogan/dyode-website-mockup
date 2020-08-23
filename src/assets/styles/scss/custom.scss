@@ -9,6 +9,10 @@ a{
 	text-decoration: none;
 }
 
+button{
+	border:0px;
+}
+
 
 /* FONTS */
 
@@ -82,7 +86,41 @@ li{
 }
 
 
-/* HERO BANNER IMAGE */
+/* HERO BANNER IMAGE AND TEXT */
 .hero-banner-image{
 	width:100%;
+}
+
+.hero-inner-text-left{
+	width:100%;
+	position: absolute;
+	top:50%;
+	-ms-transform:translate(0, 50%);
+	-webkit-transform:translate(0, 50%);
+	transform:translate(0, 50%);;
+	margin:auto 95px;
+}
+
+.hero-title{
+	font-family:Pacifico;
+	color:#ffffff;
+	font-size:58px;
+}
+
+.hero-tagline{
+	font-family:Lato;
+	color:#ffffff;
+	font-size:47px;
+	font-weight:300;
+}
+
+.hero-button{
+	font-family:Lato;
+	background-color:#000000;
+	color:#ffffff;
+	font-size:24px;
+	font-weight:700;
+	padding:14px;
+	padding-left:32px;
+	padding-right:32px;
 }
