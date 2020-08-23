@@ -2,8 +2,10 @@
 
 
 <div class="hero-banner">
-	<img :src="require('../assets/img/Hero-Image-1.jpg')" />
+	<img class="hero-banner-image" :src="require('../assets/img/Hero-Image-1.jpg')" />
 </div>
+
+
 
 </template>
 

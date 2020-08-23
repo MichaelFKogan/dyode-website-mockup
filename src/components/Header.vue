@@ -4,7 +4,8 @@
     
 
 	<a href="/">
-		<p class="site-header__logo-link" >logo</p>
+		<!-- <p class="site-header__logo-link" >logo</p> -->
+		<img class="header-logo" :src="require('../assets/img/Logo.png')" />
 	</a>
 
         

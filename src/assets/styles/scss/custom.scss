@@ -1,6 +1,6 @@
 /* Removing Google User Agent Settings*/
 
-body, p, h2{
+body, p, h2, ul{
 	margin:0px;
 }
 
@@ -55,6 +55,11 @@ a{
 	display: inline-block;
 }
 
+.header-logo{
+	vertical-align: middle;
+	padding:8px;
+}
+
 nav{
 	display: inline-block;
 }
@@ -65,12 +70,19 @@ ul{
 
 li{
 	display:inline-block;
-	padding: 16px;
+	vertical-align: middle;
+	padding: 22px;
 }
 
 .site-nav__label{
 	font-family:Lato;
 	font-size:29px;
 	font-weight:300;
-	padding:5px;
+	/*padding:5px;*/
+}
+
+
+/* HERO BANNER IMAGE */
+.hero-banner-image{
+	width:100%;
 }
