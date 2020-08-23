@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-    <h3> Announcement Bar</h3>
+    <h3 id="announcement"> Announcement Bar</h3>
 <hr>
   </div> 
 

@@ -14,6 +14,8 @@
 </template>
 
 <script>
+import '@/assets/css/custom.scss'
+
 import AnnouncementBar from './components/Announcement-bar.vue'
 import Header from './components/Header.vue'
 import Banner from './components/Banner.vue'
