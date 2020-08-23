@@ -1,8 +1,9 @@
 <template>
-<div class="container">
-    <h3>Banner</h3>
-<hr>
-  </div> 
+
+
+<div class="hero-banner">
+	<img :src="require('../assets/img/Hero-Image-1.jpg')" />
+</div>
 
 </template>
 

@@ -1,0 +1,76 @@
+/* Removing Google User Agent Settings*/
+
+body, p, h2{
+	margin:0px;
+}
+
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/* FONTS */
+
+/*@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Black.ttf")
+}
+
+@font-face {
+  font-family: "Pacifico Font";
+  src: url("../fonts/Pacifico Font/Pacifico.ttf")
+}*/
+
+
+/* ANNOUNCEMENT BAR */
+
+.announcement-bar{
+	width:100%;
+	background-color:black;
+	text-align:center;
+}
+
+.announcement-bar__message{
+	color:#ffffff;
+	font-family:Lato;
+	font-size:26px;
+	font-weight:300;
+	padding:16px;
+
+}
+
+
+/* HEADER */
+.site-header{
+	background-color: #00504f;
+	width:100%;
+	text-align:center;
+}
+
+.site-header__logo-link{
+	color: #ffffff;
+	font-family:Pacifico;
+	font-size:54px;
+	display: inline-block;
+}
+
+nav{
+	display: inline-block;
+}
+
+ul{
+	padding-left:20px;
+}
+
+li{
+	display:inline-block;
+	padding: 16px;
+}
+
+.site-nav__label{
+	font-family:Lato;
+	font-size:29px;
+	font-weight:300;
+	padding:5px;
+}
