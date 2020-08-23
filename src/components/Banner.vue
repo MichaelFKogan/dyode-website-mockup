@@ -7,9 +7,9 @@
 </div>
 
 <div class="hero-inner-text-left">
-<div class="hero-title">Title Goes Here</div>
-<div class="hero-tagline">Tagline will go right here.</div>
-<div class="hero-button-container"><button class="hero-button">SHOP NOW</button></div>
+	<div class="hero-title">Title Goes Here</div>
+		<div class="hero-tagline">Tagline will go right here.</div>
+	<div class="hero-button-container"><button class="hero-button">SHOP NOW</button></div>
 </div>
 
 
@@ -25,8 +25,3 @@
 }
 </script>
 
-<style>
-  h3 {
-    margin-bottom: 5%;
-  }
-</style>

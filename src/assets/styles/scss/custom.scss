@@ -31,14 +31,14 @@ button{
 
 .announcement-bar{
 	width:100%;
-	background-color:black;
+	background-color:#000000;
 	text-align:center;
 }
 
 .announcement-bar__message{
 	color:#ffffff;
 	font-family:Lato;
-	font-size:26px;
+	font-size:2vw;
 	font-weight:300;
 	padding:16px;
 
@@ -80,7 +80,7 @@ li{
 
 .site-nav__label{
 	font-family:Lato;
-	font-size:29px;
+	font-size:2vw;
 	font-weight:300;
 	/*padding:5px;*/
 }
@@ -92,7 +92,7 @@ li{
 }
 
 .hero-inner-text-left{
-	width:100%;
+	/*width:100%;*/
 	position: absolute;
 	top:50%;
 	-ms-transform:translate(0, 50%);
@@ -124,3 +124,37 @@ li{
 	padding-left:32px;
 	padding-right:32px;
 }
+
+
+/* COLLECTION LIST */
+
+.collection-list-wrapper{
+	/*width:100%;*/
+/*	margin-top:40px;
+	margin-left:40px;*/
+}
+
+.collection-list-box{
+	width:30.33%;
+	margin: 1.5%;
+	float: left;
+}
+
+.collection-list-image{
+	width:100%;
+}
+
+.bottom-banner-text{
+	position: relative;
+	bottom:7vw;
+	text-align:center;
+
+	font-family:Pacifico;
+	font-size:4vw;
+	background-color: #00504f;
+	color: white;
+
+}
+
+
+
