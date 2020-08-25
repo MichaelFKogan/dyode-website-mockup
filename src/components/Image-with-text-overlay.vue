@@ -1,8 +1,7 @@
 <template>
-<div class="container">
-    <h3>Image With Text Overlay</h3>
-<hr>
-  </div> 
+<div>
+
+</div>
 
 </template>
 
