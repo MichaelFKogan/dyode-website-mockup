@@ -12,7 +12,9 @@
 	</div>
 
 	<div class="email-container">
+		<div class="search-padder">
 		<input class="email-input" type="email" name="email" placeholder="Your Email Address">
+		</div>
 		<button class="subscribe">Subscribe</button>
 	</div>
 

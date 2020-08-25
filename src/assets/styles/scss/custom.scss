@@ -248,7 +248,7 @@ li{
 
 .bottom-banner-text{
 	position: relative;
-	bottom:12vw;
+	bottom:11vw;
 	text-align:center;
 
 	font-family:Pacifico;
@@ -415,20 +415,28 @@ li{
 	padding-bottom:40px;
 }
 
+.search-padder{
+	display:inline-block;
+	width:66%;
+}
+
 .email-input{
 	height:42px;
-	width:70%;
+	width:100%;
+
 }
 
 .subscribe{
 	font-family:Pacifico;
 	font-size:14px;
-	padding:10px 30px;
+/*	padding:10px 30px;*/
 	
 	background-color:#00504f;
 	border:2px solid white;
 	color:white;
 	float:right;
+	width:30%;
+	height: 47px;
 }
 
 .email-input::placeholder{
