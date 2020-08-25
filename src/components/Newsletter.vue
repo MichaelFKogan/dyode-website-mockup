@@ -2,14 +2,17 @@
 
 <div class="newsletter-wrapper">
 
-<div class="email-icon-wrapper">	
-	<img class="email-icon-image" :src="require('../assets/img/Email-icon.png')" />
+<div class="top-title-wrapper">
+	<div class="email-icon-wrapper">	
+		<img class="email-icon-image" :src="require('../assets/img/Email-icon.png')" />
+	</div>	
+		<div class="feature-title newsletter-title">Sign up & stay connected</div>	
 </div>	
-	<div class="feature-title newsletter-title">Sign up & stay connected</div>	
 
+<div class="email-signup-wrapper">
 	<div class="newletter-text-wrapper">
-		<p class="newsletter-text">Sign up for the newsleTer and get 20% off! Get access to exclusive offers and be the first to know when new stuff drops.</p>
-	</div>
+		<p class="newsletter-text">Sign up for the newsleTer and get 20% off! Get access to exclusive offers and be the first to know when new stuff drops!</p>
+		</div>
 
 	<div class="email-container">
 		<div class="search-padder">
@@ -17,6 +20,7 @@
 		</div>
 		<button class="subscribe">Subscribe</button>
 	</div>
+</div>
 
 </div>
 

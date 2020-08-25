@@ -294,7 +294,7 @@ li{
 	/*padding:10px;*/
 	display:inline-block;
 	position:absolute;
-	top:37%;
+	top:48%;
 }
 
 .arrow-left{
@@ -379,10 +379,14 @@ li{
 		margin:auto;
 	}
 
-.arrow-container{
-	width:90%;
-	right:5%;
-}
+	.arrow-container{
+		width:90%;
+		right:5%;
+	}
+
+	.feature-title{
+		font-size:39px;
+	}
 
 
 }
@@ -416,6 +420,21 @@ li{
 	width:100%;
 	/*padding: 10px;*/
 }
+
+@media only screen and (min-width: 769px){
+	.col-lg-5{
+		width:20%;
+	}
+
+	.instagram-wrapper{
+		padding:50px;
+	}
+
+}
+
+
+
+
 
 /*	NEWSLETTER	*/
 
@@ -491,6 +510,81 @@ li{
 
 }
 
+@media only screen and (min-width: 769px){
+
+.newsletter-wrapper{
+	position:relative;
+	display:grid;
+	padding-bottom:50px;
+	}
+
+	.top-title-wrapper{
+		margin:auto;
+		margin-top:50px;
+		margin-bottom:10px;
+	}
+
+	.email-icon-wrapper{
+		width:auto;
+		float:left;
+		display:inline-block;
+	}	
+
+	.newsletter-title{
+		display:inline-block;
+		float:left;
+	}
+
+	.email-icon-image{
+		height:40px;
+		display:inline-block;
+	}
+
+	.email-container{
+		width:50%;
+		margin:0px;
+	}
+
+	.newsletter-text{
+		font-size:22px;
+		font-weight:400;
+		text-align:left;
+		width:100%;
+	}
+
+	.newletter-text-wrapper{
+		width:49%;
+		display:inline-block;
+		float:left;
+
+	}	
+
+	.email-container{
+		width:50%;
+		float:right;
+	}
+
+	.email-signup-wrapper{
+		width:80%;
+		display:block;
+		margin:auto;
+	}
+
+	.email-input::placeholder{
+		font-size:18px;
+	}	
+	
+	.subscribe{
+		font-size:18px;
+		border:4px solid #ffffff;
+	}
+
+
+}
+
+
+
+
 /*FOOTER*/
 
 .footer{
@@ -530,8 +624,17 @@ li{
 }
 
 
+@media only screen and (min-width: 769px){
 
+	.footer-title{
+		font-size:21px;
+	}
 
+	.footer-menu-item{
+		font-size:18px;
+		margin-bottom:10px;
+	}
 
+}
 
 
