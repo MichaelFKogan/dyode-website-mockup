@@ -1,6 +1,6 @@
 <template>
 
-<div>
+
 
 	<div class="collection-list-wrapper">
 		<div class="collection-list-box col-sm-6">
@@ -25,7 +25,6 @@
 	</div>
 	</div>	
 
-</div>
 
 </template>
 

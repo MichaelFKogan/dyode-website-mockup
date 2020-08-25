@@ -18,18 +18,25 @@
 	</div>
 
 			<div class="slider-wrap">
-				<div class="featured-collection-image-wrap col-sm-4">
+				<div class="featured-collection-image-wrap col-sm-6">
 				<div class="featured-inner-container">	
 					<img class="featured-collection-image" :src="require('../assets/img/Product-Image-1.jpg')" />
-					<div class="product-title">Product Title</div>
-					Women's T-Shirt
-					$19.99 
+					<div class="product-info">
+						<div class="product-title">Product Title</div>
+						<div class="product-item">Women's T-Shirt</div>
+						<div class="price">$19.99</div>
+					</div> 
 				</div>
 				</div>
 
-				<div class="featured-collection-image-wrap col-sm-4">
+				<div class="featured-collection-image-wrap col-sm-6">
 					<div class="featured-inner-container">
 					<img class="featured-collection-image" :src="require('../assets/img/Product-Image-1.jpg')" />
+					<div class="product-info">
+						<div class="product-title">Product Title</div>
+						<div class="product-item">Women's T-Shirt</div>
+						<div class="price">$19.99</div>
+					</div> 
 				</div>
 			</div>
 

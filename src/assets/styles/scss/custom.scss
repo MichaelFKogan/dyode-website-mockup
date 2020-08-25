@@ -273,6 +273,7 @@ li{
 .arrow-container{
 	width:100%;
 	padding:10px;
+	display: none;
 }
 
 .arrow-left{
@@ -308,12 +309,40 @@ li{
 	/*margin: 1.5%;*/
 	/*padding:10px;*/
 	float: left;
-	border:1px solid black;
+	/*border:1px solid blue;*/
 }
 
 .featured-collection-image{
 	width: 100%;
-	border:1px solid red;
+	/*border:1px solid green;*/
 }
+
+.product-info{
+	text-align:center;
+	margin-top:30px;
+}
+
+.product-title{
+	font-family:Lato;
+	font-size:24px;
+	color:#000000;
+}
+
+.product-item{
+	font-family:Lato;
+	font-size:18px;
+	font-weight:300;
+	color:#252525;
+}
+
+.price{
+	font-family:Pacifico;
+	font-size:24px;
+	font-weight:300;
+	color:#00504f;
+}
+
+
+/*	HERO IMAGE 2 - IMAGE WITH TEXT OVERLAY	*/
 
 
