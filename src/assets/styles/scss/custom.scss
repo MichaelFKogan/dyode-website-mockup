@@ -164,19 +164,6 @@ li{
 	display:block;
 }
 
-/* HIDE CONTENT ON MOBILE SCREENS*/
-@media only screen and (max-width: 768px){
-	.mobile-hide{
-		display: none;
-		}
-}
-
-/* HIDE CONTENT ON DESKTOP SCREENS */
-@media only screen and (min-width: 769px){
-	.desktop-hide{
-		display: none;
-		}
-}
 
 .hero-inner-text-left{
 	/*width:100%;*/
@@ -638,3 +625,16 @@ li{
 }
 
 
+/* HIDE CONTENT ON MOBILE SCREENS*/
+@media only screen and (max-width: 768px){
+	.mobile-hide{
+		display: none;
+		}
+}
+
+/* HIDE CONTENT ON DESKTOP SCREENS */
+@media only screen and (min-width: 769px){
+	.desktop-hide{
+		display: none;
+		}
+}
