@@ -268,6 +268,7 @@ li{
 	text-align: center;
 	font-family:Pacifico;
 	font-size:28px;
+	padding:2px;
 }
 
 .arrow-container{
@@ -344,5 +345,141 @@ li{
 
 
 /*	HERO IMAGE 2 - IMAGE WITH TEXT OVERLAY	*/
+
+
+
+/* INSTAGRAM FEED */
+
+.instagram-wrapper{
+	margin-top:30px;
+	padding:10px;
+}
+
+.col-sm-3{
+	width:33.33%;
+	display:inline-block;
+}
+
+.inner-insta-container{
+	padding:7px;
+}
+
+.image-container{
+	/*padding:10px;*/
+}
+
+.insta-image{
+	width:100%;
+	/*padding: 10px;*/
+}
+
+/*	NEWSLETTER	*/
+
+.newsletter-wrapper{
+	background-color:#00504f;
+}
+
+.email-icon-wrapper{
+	width:100%;
+	padding-top:20px;
+	padding-bottom:0px;
+}
+
+.email-icon-image{
+	height:25px;
+	display: block;
+	margin:auto;	
+}
+
+.newsletter-title{
+	color:white;
+}
+
+.newsletter-text{
+	text-align:center;
+	width:75%;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+
+	font-family:Lato;
+	font-size:14px;
+	font-weight:300;
+	color:white;
+}
+
+.email-container{
+	width:90%;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:40px;
+}
+
+.email-input{
+	height:42px;
+	width:72%;
+}
+
+.subscribe{
+	font-family:Pacifico;
+	font-size:14px;
+	padding:10px 30px;
+	
+	background-color:#00504f;
+	border:2px solid white;
+	color:white;
+	float:right;
+}
+
+.email-input::placeholder{
+	color:#999999;
+	font-family:Lato;
+	font-size:12px;
+	padding-left:20px;
+
+}
+
+/*FOOTER*/
+
+.footer{
+	max-width:100%;
+}
+
+.footer-container{
+	
+	padding:30px 60px;
+	background-color:black;
+
+}
+
+.footer-title{
+	color:white;
+	text-align:left;
+}
+
+.minus-icon, .plus-icon{
+	color:white;
+	font-family:Pacifico;
+	font-size:24px;
+	float:right;
+}
+
+.footer-menu-item{
+	color:white;
+	font-family:Lato;
+	font-size:24px;
+	font-weight:300;
+}
+
+
+.social-icon{
+	padding:10px;
+	height:50px;
+}
+
+
+
+
+
 
 
