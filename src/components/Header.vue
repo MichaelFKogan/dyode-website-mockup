@@ -1,15 +1,20 @@
 <template>
 
 <header class="site-header">
-    
+   
+<div class="navbar-container">
 
-	<a href="/">
-		<!-- <p class="site-header__logo-link" >logo</p> -->
-		<img class="header-logo" :src="require('../assets/img/Logo.png')" />
-	</a>
+	<div class="grid_item-left desktop-hide">    
+		<i class="fa fa-bars fa-3x"></i>
+	</div>
 
+	<div class="header-logo">
+		<a href="/">
+			<img class="header-logo-img" :src="require('../assets/img/Logo.png')" />
+		</a>
+	</div>
         
-	<nav class="" id="" role="navigation">
+	<nav class="" id="navbar-menu" role="navigation">
 		<ul>
 			<li>
 				<a href="/" class="sit-nav__link">
@@ -33,6 +38,10 @@
 			</li>
 		</ul>
 	</nav>	
+
+    <i class="fa fa-shopping-cart desktop-hide"></i>	
+
+</div>   
 
 </header>
 

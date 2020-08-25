@@ -3,7 +3,8 @@
 <div>
 
 <div class="hero-banner">
-	<img class="hero-banner-image" :src="require('../assets/img/Hero-Image-1.jpg')" />
+	<img class="hero-banner-image mobile-hide" :src="require('../assets/img/Hero-Image-desktop.jpg')" />
+	<img class="hero-banner-image desktop-hide" :src="require('../assets/img/Hero-Image-mobile.jpg')" />	
 </div>
 
 <div class="hero-inner-text-left">
